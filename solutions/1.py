@@ -1,0 +1,2 @@
+import zlib
+print((str(zlib.decompress(b'x\xda\x8b\xaf\x89\x8f\x8f\xa7\x18sQ\xc3\x90\xf8x.\x00\xc0k8\x00'),'utf-8')*9).strip('\n'))
