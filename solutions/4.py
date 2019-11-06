@@ -1,5 +1,5 @@
-a=''
 while 1:
+ a=''
  x=input()
  if len(x)<1:break
  b=''
